@@ -1,0 +1,7 @@
+#+title: openapi-viewer-mode
+
+Minor mode to preview OpenAPI file.
+
+-----
+
+It is only a convenient macro that run a swagger-ui container with current file.
