@@ -2,6 +2,14 @@
 
 Minor mode to preview OpenAPI file.
 
------
+** Description
+- It is only a convenient macro that run a swagger-ui container
+- swagger-ui container is accessible on http://localhost:2142
 
-It is only a convenient macro that run a swagger-ui container with current file.
+** Installation
+
+#+begin_src elisp
+;; Inside packages.el for Doom Emacs
+(package! openapi-viewer-mode
+  :recipe (:host github :repo "n1tsu/openapi-viewer-mode" :files ("openapi-viewer-mode.el")))
+#+end_src
